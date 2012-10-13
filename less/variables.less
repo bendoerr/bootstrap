@@ -9,25 +9,26 @@
 
 // Grays
 // -------------------------
-@black:                 #000;
-@grayDarker:            #222;
-@grayDark:              #333;
-@gray:                  #555;
-@grayLight:             #999;
-@grayLighter:           #eee;
-@white:                 #fff;
+@black:                 #211A10;
+@grayDarker:            #262625;
+@grayDark:              #333230;
+@gray:                  #957547;
+@grayLight:             #ACA9A6;
+@grayLighter:           #E6E1DA;
+@white:                 #F2EFEC;
 
 
 // Accent colors
 // -------------------------
-@blue:                  #049cdb;
-@blueDark:              #0064cd;
-@green:                 #46a546;
-@red:                   #9d261d;
-@yellow:                #ffc40d;
+@blue:                  #0F5CA1;
+@blueDark:              #053968;
+@green:                 #04A86A;
+@red:                   #F85106;
+@yellow:                #F8BE06;
 @orange:                #f89406;
+@orangeDark:            #b94a25;
 @pink:                  #c3325f;
-@purple:                #7a43b6;
+@purple:                #343182;
 
 
 // Scaffolding
@@ -38,8 +39,8 @@
 
 // Links
 // -------------------------
-@linkColor:             #08c;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:             @red;
+@linkColorHover:        @orangeDark;
 
 
 // Typography
@@ -70,22 +71,22 @@
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #bbb;
 
-@btnPrimaryBackground:              @linkColor;
-@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
+@btnPrimaryBackground:              @blue;
+@btnPrimaryBackgroundHighlight:     @blueDark;
 
-@btnInfoBackground:                 #5bc0de;
-@btnInfoBackgroundHighlight:        #2f96b4;
+@btnInfoBackground:                 #689FD0;
+@btnInfoBackgroundHighlight:        #428DD0;
 
-@btnSuccessBackground:              #62c462;
-@btnSuccessBackgroundHighlight:     #51a351;
+@btnSuccessBackground:              #39D399;
+@btnSuccessBackgroundHighlight:     @green;
 
-@btnWarningBackground:              lighten(@orange, 15%);
-@btnWarningBackgroundHighlight:     @orange;
+@btnWarningBackground:              lighten(@red, 15%);
+@btnWarningBackgroundHighlight:     @red;
 
-@btnDangerBackground:               #ee5f5b;
-@btnDangerBackgroundHighlight:      #bd362f;
+@btnDangerBackground:               @pink;
+@btnDangerBackgroundHighlight:      darken(@pink, 15%);
 
-@btnInverseBackground:              #444;
+@btnInverseBackground:              @gray;
 @btnInverseBackgroundHighlight:     @grayDarker;
 
 
@@ -173,8 +174,8 @@
 @navbarBrandColor:                @navbarLinkColor;
 
 // Inverted navbar
-@navbarInverseBackground:                #111111;
-@navbarInverseBackgroundHighlight:       #222222;
+@navbarInverseBackground:                @black;
+@navbarInverseBackgroundHighlight:       @grayDarker;
 @navbarInverseBorder:                    #252525;
 
 @navbarInverseText:                      @grayLight;
